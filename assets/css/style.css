@@ -15,7 +15,7 @@ body, html{
     align-items: center;
     text-align: center;
 /* The hero image */
-    background: url(/assets/img/forrest.jpeg);
+    background: url(/assets/img/AdobeStock_forrest.jpeg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,9 +28,9 @@ body, html{
     margin-bottom: 0.5em;
     color: #E9FF4F;
 }
-.hero p{
-    color: #FDF3DD;
-}
+/* .hero p{
+    color: #383428;
+} */
 .hero .btn{
     display: block;
     width: 200px;
