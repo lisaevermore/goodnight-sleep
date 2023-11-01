@@ -8,45 +8,41 @@ body, html{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #667268;
+  /* background-color: #667268; */
   font-family: sans-serif;
+}
+
+.container{
+  padding-top: 15px;
 }
 
 /*--------------------------------------------Colors*/
 
 
 /*--------------------------------------------hero sections */
-#hero {
-  height: 600px;
-  width: 100%;
-  background: url(/assets/img/AdobeStock_forrest.jpeg) no-repeat center center/cover;
-  position: relative;
-}
+
 
 .hero{  
-  width: 100vw;
-  height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   /* The hero image */
-  /* background: url(/assets/img/AdobeStock_forrest.jpeg); */
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(/assets/img/AdobeStock_forrest.jpeg);
   background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
 }
 .hero h1{
-  font-size: 5em;
-  margin-top: 0;
-  margin-bottom: 0.5em;
-  color: #E9FF4F;
+  font-size: 4em;
 }
-/* .hero p{
-    color: #383428;
-} */
+.hero-text {
+  color: #E9FF4F;
+  text-align: center;
+}
+
+
 .hero .btn{
     display: block;
     width: 200px;
@@ -65,11 +61,6 @@ body, html{
     font-size: 1.5em;
 }
 
-.hero-text {
-    text-align: center;
-    top: 50%;
-    margin: 5em;
-}
 
 /* hero text class and keyframes */
 .lineUp {
@@ -133,55 +124,32 @@ body, html{
 
 
 /*--------------------------------------------home page */
-#home-page{
-  background: #FDF3DD;
-}
 .page-container{
-  margin-left: 50px;
-  width: 100vw;
-  height: 100vh;
+  background: #FDF3DD;
+  /* margin: 20px auto;
+  width: 90%; */
 }
-.first-section{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-}
-.h3-rain{
-  display: flex;
-
-}
-
-.second-section{
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-}
-.third-section{
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-}
-
 
 
 
 .image-container {
-  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#circle-cover-bg {
-  width: 90vw;
-  height: 90vw;
+
+.circle-cover-bg {
   margin-bottom: 20px;
   border-radius: 50%;
-  max-width: 300px;
-  max-height: 300px;
+  width: 80px;
+  height: 80px;
+  
+}
+.title{
+  text-align: center;
+
 }
 
-.rain{
-  background: url(/assets/img/rainforest.jpeg) no-repeat top center/cover;
-
-}
 
 
 @media screen and (min-width: 768px){
@@ -210,6 +178,17 @@ body, html{
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
+  }
+  .image-container {
+    margin: 20px;
+  }
+  #circle-cover-bg {
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
   }
   
 
