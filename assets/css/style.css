@@ -1,32 +1,48 @@
-body, html{
-    background-color: #667268;
-    margin: 0;
-    font-family: sans-serif;
+*{ 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+body, html{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #667268;
+  font-family: sans-serif;
+}
+
 /*--------------------------------------------Colors*/
 
 
 /*--------------------------------------------hero sections */
-.hero{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-/* The hero image */
-    background: url(/assets/img/AdobeStock_forrest.jpeg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+#hero {
+  height: 600px;
+  width: 100%;
+  background: url(/assets/img/AdobeStock_forrest.jpeg) no-repeat center center/cover;
+  position: relative;
+}
+
+.hero{  
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* The hero image */
+  /* background: url(/assets/img/AdobeStock_forrest.jpeg); */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 .hero h1{
-    font-size: 5em;
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    color: #E9FF4F;
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: #E9FF4F;
 }
 /* .hero p{
     color: #383428;
@@ -76,3 +92,125 @@ body, html{
       transform: translateY(0%);
     }
   }
+
+
+
+/*--------------------------------------------nav bar */
+  /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.navbar{
+  border-radius: 50%;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #43542d;
+}
+
+
+.home,
+.twitter,.google, .linkedin, .youtube{
+  /* background: #3B5998; */
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+
+/*--------------------------------------------home page */
+#home-page{
+  background: #FDF3DD;
+}
+.page-container{
+  margin-left: 50px;
+  width: 100vw;
+  height: 100vh;
+}
+.first-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.h3-rain{
+  display: flex;
+
+}
+
+.second-section{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.third-section{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+
+
+
+.image-container {
+  margin: 20px;
+}
+#circle-cover-bg {
+  width: 90vw;
+  height: 90vw;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.rain{
+  background: url(/assets/img/rainforest.jpeg) no-repeat top center/cover;
+
+}
+
+
+@media screen and (min-width: 768px){
+  .page-container{
+    margin-left: 50px;
+    width: 100vw;
+    height: 100vh;
+  }
+  .first-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .h3-rain{
+    display: flex;
+  
+  }
+  
+  .second-section{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .third-section{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  
+
+}
