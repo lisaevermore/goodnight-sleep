@@ -255,10 +255,15 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #5e2ced;
 }
 
+/*--------------------------------------------rain sound section */
+
+
+
+
 
 @media screen and (min-width: 768px){
   .page-container{
-    margin-left: 50px;
+    /* margin-left: 50px; */
     width: 100vw;
     height: 100vh;
   }
@@ -294,6 +299,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     max-width: 300px;
     max-height: 300px;
   }
-  
+  /*--------------------------------------------rain sound section */
+
+  .rain-container{
+    height: 100vh;  /* Set height to 100% of the viewport height */   
+    width: 100vw; 
+
+  }
 
 }
