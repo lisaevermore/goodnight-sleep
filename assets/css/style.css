@@ -9,12 +9,11 @@ body, html{
   display: flex;
   flex-direction: column;
   /* background-color: #667268; */
-  font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
+  font-family: 'FedraSansStd-A-medium','sans-serif';
+  
 }
 
-.container{
+.section-container{
   padding-top: 15px;
   padding-bottom: 15px
 }
@@ -47,21 +46,21 @@ font-family: 'Poppins', sans-serif;
 
 
 .hero .btn{
-    display: block;
-    width: 200px;
-    border: 3px solid  #FDF3DD;
-    border-radius: 20px;
-    
-    /* Padding and margins */
-    padding: 1em;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-   
-    /* Text styles */
-    color: #FDF3DD;
-    text-decoration: none;
-    font-size: 1.5em;
+  display: block;
+  width: 200px;
+  border: 3px solid  #FDF3DD;
+  border-radius: 20px;
+  
+  /* Padding and margins */
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* Text styles */
+  color: #FDF3DD;
+  text-decoration: none;
+  font-size: 1.5em;
 }
 
 
@@ -129,8 +128,12 @@ font-family: 'Poppins', sans-serif;
 /*--------------------------------------------home page */
 .page-container{
   background: #FDF3DD;
-  /* margin: 20px auto;
-  width: 90%; */
+  height: 100vh;
+}
+
+.page-container1{
+  background: #667268;
+  height: 100vh;
 }
 
 .image-container {
@@ -155,20 +158,20 @@ font-family: 'Poppins', sans-serif;
 
 
 .new_footer_area {
-  background: #fbfbfd;
+  background: #f6ffff;
 }
 
 .new_footer_area .footer_bottom {
-  padding-top: 5px;
+  padding-top: 150px;
   padding-bottom: 10px;
 }
-.footer_bottom {
+/* .footer_bottom {
   font-size: 14px;
   font-weight: 300;
   line-height: 20px;
   color: #7f88a6;
   padding: 27px 0px;
-}
+} */
 .form-style{
   display: flex;
   align-items: center;
@@ -228,18 +231,25 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   height: 266px;
 } */
 
-.footer_bg {
-  width:100%;
-  height:0;
-  padding-bottom:75%;
-  position:relative;
+.footer_bottom {
+  padding-bottom:55%;
+  position:absolute;
+  width: 100%; 
+  height: 200px;
+  background: url("/assets/img/9ZTH.gif");
+  background-position: center;
+}
+.jumping-sheep{
+  width: 100%;
+  height: 200px;
 }
 
 .icons{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 10px
+  padding: 10px;
+  background-position: center;
 }
 
 .footer_bottom p {
@@ -264,6 +274,173 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding-bottom:65%;
   position:relative;
 }
+/*--------------------------------------------yoga section */
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*--------------------------------------------Related Content section */
+/* .page-container2{
+  margin-top: 45px;
+  max-width: 1170px;
+  display: flex;
+  justify-content: center;
+  grid-gap: 15px;
+}
+.inner_container{
+  max-width: 302px;
+  margin-inline-end: auto;
+  direction: ltr;
+  margin-inline-start: auto;
+} */
+
+.page-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 30px;
+  background: linear-gradient(to bottom, #ffffff 1%, #ccc3b0 97%);
+  background-repeat: no-repeat;}
+
+.text_header{
+  float: left;
+  width: 100%;
+  margin-top: 62px;
+  text-align: center;
+}
+.boxcontainer{
+  margin-top: 45px;
+  display: flex;
+  max-width: 1170px;
+  width: var(--chakra-sizes-full);
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-gap: 15px;
+}
+
+
+.innercontainer{
+  max-width:302px;
+  -webkit-margin-start:auto;
+  margin-inline-start:auto;
+  -webkit-margin-end:auto;
+  margin-inline-end:auto;
+  direction:ltr;
+}
+
+.css-13eeds2 {
+  float:left;
+  margin-left:25px;
+}
+.card-image { 
+  display: inline-block;
+}
+.article-text{
+  font-family: FedraSerifAStdBook;
+  font-size: 16px;
+  text-align: right;
+  color: #676055;
+  margin-right: 15px;
+  text-transform: capitalize;
+}
+
+
+  @media screen and (min-width: 480px){
+    .boxcontainer {
+      grid-gap: 30px;
+      }
+    .innercontainer{
+      max-width: 330px;
+      }
+  }
+  @media screen and (min-width: 768px){.css-1xiu77m{max-width:330px;}}
+  @media screen and (min-width: 960px){.css-1xiu77m{max-width:370px;}}
+  @media screen and (min-width: 480px){.css-1xiu77m{max-width:330px;}}
+
+
+
 
 
 @media screen and (min-width: 768px){
