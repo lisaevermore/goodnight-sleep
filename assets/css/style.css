@@ -17,6 +17,21 @@ body, html{
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.page-container{
+  background: linear-gradient(to top, #ffffff 1%, #FDF3DD 77%);
+  /* height: 100vh; */
+  overflow: scroll;
+}
+.page-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 30px;
+  background: linear-gradient(to top, #ffffff 1%, #667268 97%);
+  background-repeat: no-repeat;
+  /* padding-top: 10px; */
+}
 
 /*--------------------------------------------Colors*/
 
@@ -140,11 +155,7 @@ body, html{
 
 
 /*--------------------------------------------home page */
-.page-container{
-  background: linear-gradient(to bottom, #ffffff 1%, #FDF3DD 77%);
-  height: 100vh;
-  overflow: scroll;
-}
+
 
 .image-container {
   display: flex;
@@ -175,22 +186,13 @@ body, html{
   padding-top: 150px;
   padding-bottom: 10px;
 }
-/* .footer_bottom {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 20px;
-  color: #7f88a6;
-  padding: 27px 0px;
-} */
+
 .form-style{
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.f-title{
-  display: flex;
-  justify-content: space-around;
-}
+
 .new_footer_top .company_widget p {
   font-size: 16px;
   font-weight: 300;
@@ -233,14 +235,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 
 
-
-/* .new_footer_top .footer_bg {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 266px;
-} */
-
 .footer_bottom {
   padding-bottom:55%;
   position:absolute;
@@ -260,6 +254,13 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   justify-content: space-around;
   padding: 10px;
   background-position: center;
+}
+
+.lgsc{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .footer_bottom p {
@@ -374,16 +375,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /*--------------------------------------------Related Content section */
 
 
-.page-container1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding-bottom: 30px;
-  background: linear-gradient(to bottom, #ffffff 1%, #667268 97%);
-  background-repeat: no-repeat;
-  /* padding-top: 10px; */
-}
+
 
 .text_header{
   float: left;
@@ -391,10 +383,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   text-align: center;
 }
 .boxcontainer{
-  margin-top: 45px;
   display: flex;
   max-width: 1170px;
-
   flex-wrap: wrap;
   justify-content: center;
   grid-gap: 15px;
@@ -473,23 +463,15 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   }
 }
 
-@media screen and (min-width: 768px){
-  .page-container1{
-      background-size: cover;
-      background-position: center;
-      margin-top: 0px;
-  }
-  .text_header {
-    margin-top: 60px;
-  }
-}
+
 
 @media screen and (min-width: 960px){
-.page-container1 {
-  background: linear-gradient(to bottom, #ffffff 1%, #667268 97%);
-  background-size: 500px,cover;
-  background-position: 0 80px,center;
-}
+  .page-container1 {
+    background: linear-gradient(to bottom, #ffffff 1%, #667268 97%);
+    background-size: 500px,cover;
+    background-position: 0 80px,center;
+  }
+ 
 }
 
 
@@ -502,6 +484,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     width: 100vw;
     height: 100vh;
   }
+  .page-container1{
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+}
   .first-section{
     display: flex;
     flex-direction: row;
@@ -539,9 +526,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   .rain-container{ 
     width:100%;
     height:0;
-    padding-bottom:75%;
     position:relative;
   }
+  /*--------------------------------------------footer */
+  
+  
   
 
 }
