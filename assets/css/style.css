@@ -14,8 +14,8 @@ body, html{
 }
 
 .section-container{
-  padding-top: 15px;
-  padding-bottom: 15px
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*--------------------------------------------Colors*/
@@ -61,6 +61,20 @@ body, html{
   color: #FDF3DD;
   text-decoration: none;
   font-size: 1.5em;
+}
+
+.hover-section{
+  outline: 1px solid #43542d;
+  padding: 20px 20px;
+  border: 5px solid transparent;
+  transition: all 0.2s ease-in-out;
+  ;
+}
+
+.hover-section:hover {
+  opacity: 0.5;
+  background:  #43542d;
+  transition: .5s ease;
 }
 
 
@@ -127,13 +141,9 @@ body, html{
 
 /*--------------------------------------------home page */
 .page-container{
-  background: #FDF3DD;
+  background: linear-gradient(to bottom, #ffffff 1%, #FDF3DD 77%);
   height: 100vh;
-}
-
-.page-container1{
-  background: #667268;
-  height: 100vh;
+  overflow: scroll;
 }
 
 .image-container {
@@ -273,6 +283,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   height: 5px;
   padding-bottom:65%;
   position:relative;
+  padding-top: 15px;
 }
 /*--------------------------------------------yoga section */
 /* Slideshow container */
@@ -361,19 +372,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   to {opacity: 1}
 }
 /*--------------------------------------------Related Content section */
-/* .page-container2{
-  margin-top: 45px;
-  max-width: 1170px;
-  display: flex;
-  justify-content: center;
-  grid-gap: 15px;
-}
-.inner_container{
-  max-width: 302px;
-  margin-inline-end: auto;
-  direction: ltr;
-  margin-inline-start: auto;
-} */
+
 
 .page-container1 {
   display: flex;
@@ -381,42 +380,46 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   align-items: center;
   width: 100%;
   padding-bottom: 30px;
-  background: linear-gradient(to bottom, #ffffff 1%, #ccc3b0 97%);
-  background-repeat: no-repeat;}
+  background: linear-gradient(to bottom, #ffffff 1%, #667268 97%);
+  background-repeat: no-repeat;
+  /* padding-top: 10px; */
+}
 
 .text_header{
   float: left;
   width: 100%;
-  margin-top: 62px;
   text-align: center;
 }
 .boxcontainer{
   margin-top: 45px;
   display: flex;
   max-width: 1170px;
-  width: var(--chakra-sizes-full);
+
   flex-wrap: wrap;
   justify-content: center;
   grid-gap: 15px;
 }
 
-
 .innercontainer{
   max-width:302px;
-  -webkit-margin-start:auto;
-  margin-inline-start:auto;
-  -webkit-margin-end:auto;
   margin-inline-end:auto;
   direction:ltr;
 }
 
-.css-13eeds2 {
+.cardcontainer{
+  min-height: 470px;
+  background-color: #fff;
+  height: auto;
+  margin: 0 0 30px 0;
+  box-shadow: 0 0 16px 0 rgb(0 0 0 / 40%);
+  position: relative;
+}
+
+.cardinnerbox {
   float:left;
   margin-left:25px;
 }
-.card-image { 
-  display: inline-block;
-}
+
 .article-text{
   font-family: FedraSerifAStdBook;
   font-size: 16px;
@@ -425,19 +428,69 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-right: 15px;
   text-transform: capitalize;
 }
+.subtext{
+  display: -webkit-box;
+  padding: 0 3vw;
+  overflow: hidden;
+  max-height: 67.5px!important;
+  font-family: FedraSerifAStdBook;
+  font-size: 20px;
+  text-align: left;
+  color: #28231e;
+  margin-top: 12px;
+}
+.ptext{
+  padding: 1vw 3vw;
+  margin-bottom: 30px;
+  height: 105px;
+  text-overflow: ellipsis;
+  line-height: 20px;
+  max-height: 105px;
+  font-family: FedraSansStd-book;
+  font-size: 14px;
+  text-align: justify;
+  color: #676055;
+}
+.img{
+  display: block;
+  width: 100%;
+  position: relative;
+  min-height: 206px;
+}
 
+
+  
 
   @media screen and (min-width: 480px){
-    .boxcontainer {
-      grid-gap: 30px;
-      }
-    .innercontainer{
-      max-width: 330px;
-      }
+  .page-container1 {
+      margin-top: 0px;
   }
-  @media screen and (min-width: 768px){.css-1xiu77m{max-width:330px;}}
-  @media screen and (min-width: 960px){.css-1xiu77m{max-width:370px;}}
-  @media screen and (min-width: 480px){.css-1xiu77m{max-width:330px;}}
+  .boxcontainer{
+    grid-gap: 30px;
+  }
+  .innercontainer {
+    max-width: 330px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .page-container1{
+      background-size: cover;
+      background-position: center;
+      margin-top: 0px;
+  }
+  .text_header {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 960px){
+.page-container1 {
+  background: linear-gradient(to bottom, #ffffff 1%, #667268 97%);
+  background-size: 500px,cover;
+  background-position: 0 80px,center;
+}
+}
 
 
 
