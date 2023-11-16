@@ -18,7 +18,7 @@ body, html{
   padding-bottom: 10px;
 }
 .page-container{
-  background: linear-gradient(to bottom, #ffffff 1%, #FDF3DD 77%);
+  background: linear-gradient(to bottom, #ffffff 50%, #FDF3DD 77%);
   /* height: 100vh; */
   overflow: scroll;
 }
@@ -28,9 +28,16 @@ body, html{
   align-items: center;
   width: 100%;
   padding-bottom: 30px;
-  background: linear-gradient(to bottom, #ffffff 1%, #667268 97%);
+  background: linear-gradient(to bottom, #ffffff 50%, #667268 97%);
   background-repeat: no-repeat;
   /* padding-top: 10px; */
+}
+.page-container3 {
+  width: 100%;
+  padding-bottom: 30px;
+  background: linear-gradient(to bottom, #ffffff 50%, #667268 97%);
+  background-repeat: no-repeat;
+
 }
 
 /*--------------------------------------------Colors*/
@@ -180,20 +187,76 @@ body, html{
 
 /*--------------------------------------------footer */
 
-
 .new_footer_area {
-  background: #f6ffff;
+  background: #FDF3DD;
 }
-
-.new_footer_area .footer_bottom {
-  padding-top: 150px;
-  padding-bottom: 10px;
+.new_footer_top {
+  text-align: center;
+  width: 94%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.form-center{
+  align-items: center;
+}
+/* .form-text{
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  z-index: 2;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  padding-top: 15px;
 }
 
 .form-style{
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+} */
+
+
+
+.panel-container {
+	background-image: linear-gradient(to bottom right, #FDF3DD,  #667268);
+	border-radius: 15px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+	margin: 15px;
+  background-color: #FEF8FC;
+}
+
+.panel-container h3 {
+	margin-bottom: 30px;
+	letter-spacing: 0.5px;
+}
+
+.panel-container input, .panel-container button {
+	border: none;
+	border-radius: 3px;
+	font-size: 12px;
+	padding: 7px 10px;
+	margin: 15px 0;
+	width: 50%;
+}
+
+.panel-container button {
+	background-image: linear-gradient(to bottom right, #667268 1%, #667268 10%);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	color: #fff;
+}
+
+.panel-container small {
+	font-size: 0.75em;
+	line-height: 10px;
+	opacity: 0.5;
+}
+
+.panel-container small:first-of-type {
+	text-transform: uppercase;
 }
 
 .new_footer_top .company_widget p {
@@ -211,7 +274,7 @@ body, html{
   background: transparent;
   color: #5e2ced;
 }
-.btn_get:hover {
+/* .btn_get:hover {
   color: #fff;
   background: #6754e2;
   border-color: #6754e2;
@@ -223,28 +286,23 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   outline: none;
 }
 
-.btn_get_two {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  background: #5e2ced;
-  border-color: #5e2ced;
-  color: #fff;
-}
+
 
 .btn_get_two:hover {
   background: transparent;
   color: #5e2ced;
-}
+} */
 
 
 
 .footer_bottom {
-  padding-bottom:55%;
+  /* padding-bottom:55%;
   position:absolute;
-  width: 100%; 
+  width: 100%;  */
   height: 200px;
   background: url("/assets/img/9ZTH.gif");
   background-position: center;
+  padding-top: 150px;
 }
 .jumping-sheep{
   width: 100%;
@@ -434,9 +492,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   text-transform: capitalize;
 }
 .subtext{
-  display: -webkit-box;
   padding: 0 3vw;
-  overflow: hidden;
   max-height: 67.5px!important;
   font-family: FedraSerifAStdBook;
   font-size: 20px;
@@ -445,7 +501,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-top: 12px;
 }
 .ptext{
-  padding: 1vw 3vw;
+  padding: 1vw;
   margin-bottom: 30px;
   height: 105px;
   text-overflow: ellipsis;
@@ -507,18 +563,25 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 
 @media screen and (min-width: 768px){
- 
   .page-container1{
     background-size: cover;
     background-position: center;
     margin-top: 0px;
+    display: flex;
 }
+.page-container3 {
+  background-size: cover;
+  background-position: center;
+  margin-top: 0px;
+  }
  
   .h3-rain{
     display: flex;
   
   }
-  
+  .text_header{
+    font-size: 70px;
+  }
 
   .image-container {
     margin: 20px;
@@ -594,3 +657,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .content p {
   margin-top: 5px; /* Adjust as needed */
 }
+
+
+
