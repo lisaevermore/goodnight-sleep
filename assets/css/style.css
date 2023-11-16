@@ -77,17 +77,17 @@ a {
   width: 200px;
   border: 3px solid  #FDF3DD;
   border-radius: 20px;
-  
   /* Padding and margins */
   margin-left: auto;
   margin-right: auto;
-  
   /* Text styles */
   color: #FDF3DD;
   text-decoration: none;
   font-size: 1.5em;
 }
-
+.btn:hover{
+    background: #43542d;
+}
 .hover-section{
   outline: 1px solid #43542d;
   padding: 20px 20px;
@@ -160,7 +160,7 @@ a {
 
 
 .home,
-.twitter,.google, .linkedin, .youtube{
+.yoga,.sound, .contactus, .morecontent{
   /* background: #3B5998; */
   background: rgba(0, 0, 0, 0.5);
   color: white;
@@ -184,7 +184,6 @@ a {
   
 }
 
-
 .title{
   text-align: center;
 
@@ -202,26 +201,6 @@ a {
   margin-bottom: 30px;
   margin-top: 30px;
 }
-.form-center{
-  align-items: center;
-}
-/* .form-text{
-  text-align: center;
-  margin-top: 20px;
-  position: relative;
-  z-index: 2;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-  padding-top: 15px;
-}
-
-.form-style{
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: space-around;
-} */
 
 
 
@@ -263,24 +242,6 @@ a {
 .panel-container small:first-of-type {
 	text-transform: uppercase;
 }
-
-.new_footer_top .company_widget p {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 28px;
-  color: #6a7695;
-  margin-bottom: 20px;
-}
-.new_footer_top .company_widget .f_subscribe_two .btn_get {
-  border-width: 1px;
-  margin-top: 20px;
-}
-.btn_get_two:hover {
-  background: transparent;
-  color: #5e2ced;
-}
-
-
 
 
 .footer_bottom {
@@ -337,19 +298,9 @@ a {
   display: inline-block;
 
 }
-/* .box-shodow{
-  box-shadow: 0 0 65px 7px rgb(124, 124, 124, 0.75);
-  display: inline-block;
-  position: relative;
-  background: #e1e1e1;
-} */
+
 /*--------------------------------------------yoga section */
-.yogaimg{
-    float: left;
-    width:  100px;
-    height: 100px;
-    object-fit: cover;
-}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 900px;
@@ -389,16 +340,6 @@ a {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
 
 
 /* The dots/bullets/indicators */
@@ -407,14 +348,14 @@ a {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #667268;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #1e3823;
 }
 
 /* Fading animation */
@@ -569,14 +510,7 @@ a {
   .image-container {
     margin: 20px;
   }
-  /* #circle-cover-bg {
-    width: 90vw;
-    height: 90vw;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-  } */
+ 
   .circle-cover-bg {
     margin-bottom: 0px;
     border-radius: 50%;
@@ -618,28 +552,6 @@ a {
 }
 
 
-.container3 {
-  display: flex;
-  align-items: center;
-}
-
-.container img {
-  max-width: 100%;
-  margin-right: 20px; /* Adjust the margin as needed */
-}
-
-.content {
-  flex: 1; /* This allows the content to take up the remaining space */
-}
-
-/* Optional: Add more styling to h3 and p tags if needed */
-.content h3 {
-  margin: 0; /* Remove default margin for h3 */
-}
-
-.content p {
-  margin-top: 5px; /* Adjust as needed */
-}
 
 
 
