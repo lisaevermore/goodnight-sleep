@@ -54,7 +54,9 @@ a {
 .hero{  
   display: flex;
   /* The hero image */
-  background: url(/assets/img/AdobeStock_forrest.jpeg);
+  background-image: url("/assets/img/AdobeStock_forrest.jpeg");
+  /* background: url(/assets/img/AdobeStock_forrest.jpeg); */
+  background-position: center;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -337,7 +339,6 @@ a {
 }
 
 
-
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -365,9 +366,6 @@ a {
   to {opacity: 1}
 }
 /*--------------------------------------------Related Content section */
-
-
-
 
 .text_header{
   float: left;
@@ -442,7 +440,7 @@ a {
 
   
 
-  @media screen and (min-width: 480px){
+@media screen and (min-width: 480px){
   .page-container1 {
       margin-top: 0px;
   }
@@ -469,7 +467,7 @@ a {
   }
   
   .containervid {
-      padding: 0 15px;
+    padding: 0 15px;
   }
   .page-container {
     background: linear-gradient(to bottom, #ffffff 1%, #FDF3DD 77%);
