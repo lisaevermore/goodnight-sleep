@@ -18,17 +18,17 @@ body, html{
   padding-bottom: 10px;
 }
 .page-container{
-  background: linear-gradient(to top, #ffffff 1%, #FDF3DD 77%);
+  background: linear-gradient(to bottom, #ffffff 1%, #FDF3DD 77%);
   /* height: 100vh; */
   overflow: scroll;
 }
 .page-container1 {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   width: 100%;
   padding-bottom: 30px;
-  background: linear-gradient(to top, #ffffff 1%, #667268 97%);
+  background: linear-gradient(to bottom, #ffffff 1%, #667268 97%);
   background-repeat: no-repeat;
   /* padding-top: 10px; */
 }
@@ -55,8 +55,8 @@ body, html{
   font-size: 4em;
 }
 .hero-text {
-  color: #E9FF4F;
-  text-align: center;
+  color: #87971b; 
+  text-align: center; 
 }
 
 
@@ -67,8 +67,6 @@ body, html{
   border-radius: 20px;
   
   /* Padding and margins */
-  padding: 1em;
-  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   
@@ -83,7 +81,8 @@ body, html{
   padding: 20px 20px;
   border: 5px solid transparent;
   transition: all 0.2s ease-in-out;
-  ;
+  display: flex;
+  justify-content: center;
 }
 
 .hover-section:hover {
@@ -96,6 +95,8 @@ body, html{
 /* hero text class and keyframes */
 .lineUp {
     animation: 2s anim-lineUp ease-out;
+    position: relative;
+    bottom: 100px;
   }
   @keyframes anim-lineUp {
     0% {
@@ -170,6 +171,8 @@ body, html{
   height: 80px;
   
 }
+
+
 .title{
   text-align: center;
 
@@ -278,14 +281,25 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*--------------------------------------------rain sound section */
 
+.containervid{
+  padding: 0 15px;
+}
 
 .rain-container{ 
   width:100%;
   height: 5px;
   padding-bottom:65%;
   position:relative;
-  padding-top: 15px;
+  box-shadow: 0 0 65px 7px rgb(124, 124, 124, 0.75);
+  display: inline-block;
+
 }
+/* .box-shodow{
+  box-shadow: 0 0 65px 7px rgb(124, 124, 124, 0.75);
+  display: inline-block;
+  position: relative;
+  background: #e1e1e1;
+} */
 /*--------------------------------------------yoga section */
 /* Slideshow container */
 .slideshow-container {
@@ -381,6 +395,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   float: left;
   width: 100%;
   text-align: center;
+  padding: 2px;
 }
 .boxcontainer{
   display: flex;
@@ -471,6 +486,19 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     background-size: 500px,cover;
     background-position: 0 80px,center;
   }
+  .slideshow-container {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .containervid {
+      padding: 0 15px;
+  }
+  .page-container {
+    background: linear-gradient(to bottom, #ffffff 1%, #FDF3DD 77%);
+    overflow: hidden;
+  }
  
 }
 
@@ -479,48 +507,56 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 
 @media screen and (min-width: 768px){
-  .page-container{
-    /* margin-left: 50px; */
-    width: 100vw;
-    height: 100vh;
-  }
+ 
   .page-container1{
     background-size: cover;
     background-position: center;
     margin-top: 0px;
 }
-  .first-section{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-  }
+ 
   .h3-rain{
     display: flex;
   
   }
   
-  .second-section{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-  }
-  .third-section{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-  }
+
   .image-container {
     margin: 20px;
   }
-  #circle-cover-bg {
+  /* #circle-cover-bg {
     width: 90vw;
     height: 90vw;
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+  } */
+  .circle-cover-bg {
+    margin-bottom: 0px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
   }
+  .box1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .box2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .box3 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+
   /*--------------------------------------------rain sound section */
 
   .rain-container{ 
@@ -533,4 +569,28 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   
   
 
+}
+
+
+.container3 {
+  display: flex;
+  align-items: center;
+}
+
+.container img {
+  max-width: 100%;
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.content {
+  flex: 1; /* This allows the content to take up the remaining space */
+}
+
+/* Optional: Add more styling to h3 and p tags if needed */
+.content h3 {
+  margin: 0; /* Remove default margin for h3 */
+}
+
+.content p {
+  margin-top: 5px; /* Adjust as needed */
 }
