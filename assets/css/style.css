@@ -86,6 +86,7 @@ a {
   color: #FDF3DD;
   text-decoration: none;
   font-size: 1.5em;
+  margin-top: 500px;
 }
 .btn:hover{
     background: #43542d;
@@ -110,7 +111,7 @@ a {
 .lineUp {
     animation: 2s anim-lineUp ease-out;
     position: relative;
-    bottom: 100px;
+
   }
   @keyframes anim-lineUp {
     0% {
@@ -200,8 +201,6 @@ a {
   margin-top: 30px;
 }
 
-
-
 .panel-container {
 	background-image: linear-gradient(to bottom right, #FDF3DD,  #667268);
 	border-radius: 15px;
@@ -240,7 +239,6 @@ a {
 .panel-container small:first-of-type {
 	text-transform: uppercase;
 }
-
 
 .footer_bottom {
   height: 200px;
@@ -477,9 +475,6 @@ a {
 }
 
 
-
-
-
 @media screen and (min-width: 768px){
   .page-container1{
     background-size: cover;
@@ -529,8 +524,6 @@ a {
     flex-direction: column-reverse;
     flex-wrap: wrap;
   }
-
-
   /*--------------------------------------------rain sound section */
 
   .rain-container{ 
@@ -538,9 +531,10 @@ a {
     height:0;
     position:relative;
   }
-  /*--------------------------------------------footer */
-  
-  
+
+  .icons {
+    font-size: 35px;
+}
   
 
 }
