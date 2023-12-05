@@ -1,5 +1,9 @@
 # Goodnight Sleep
 
+![Home Page]
+![Navigation Page]
+![Video Section]
+
 ## Overview
 
 Welcome to Goodnight Sleep, a platform dedicated to helping users achieve better sleep through body and mind self-improvement techniques. The site aims to provide a calming and informative environment for users seeking relaxation and improved well-being.
@@ -16,45 +20,39 @@ npm run deploy
 
 ## Features
 ### 1. Home Page
-
-![Home Page]
 <img width="577" alt="Screenshot 2023-12-05 at 14 39 09" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/b5a4161f-1877-401d-ad1b-497cf71d4665">
+
 - A serene image of a mountain.
 - Website title.
 - Navigation button leading to the main page.
 
 ### 2. Navigation Page
-
-![Navigation Page]
 <img width="578" alt="Screenshot 2023-12-05 at 14 39 36" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/3e50e3a5-f96a-4259-a2b3-516f9af325d4">
+
 - Side navigation bar for easy accessibility.
 - Sections include videos, yoga poses, articles, and a contact/newsletter section.
 
 ### 3. Video Section
-
-![Video Section]
 <img width="576" alt="Screenshot 2023-12-05 at 14 39 51" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/3ad494ca-1d8a-4a3f-8a3b-90376a927b1e">
+
 - Full-screen video with calming music.
 - Option to toggle fullscreen.
   
 ### 4. Yoga Poses Slideshow
-
-![Yoga Poses Slideshow]
 <img width="578" alt="Screenshot 2023-12-05 at 14 40 06" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/4f550cf0-9013-4da1-87ae-f49970c743f3">
+
 - Slideshow of different yoga poses.
 - Each pose includes the name and recommended holding duration.
 
 ### 5. Articles Section
-
-![Articles Section]
 <img width="576" alt="Screenshot 2023-12-05 at 14 40 29" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/c8cec66e-543a-4b79-a64f-17fd5ad7e95c">
+
 - Information and related content accessible through articles.
 - Clicking on an article opens a new webpage for in-depth information.
 
 ### 6. Contact Me/Newsletter
-
-![Contact Me/Newsletter]
 <img width="577" alt="Screenshot 2023-12-05 at 14 40 40" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/aebd43d7-df5b-4201-8c04-c58a781ca04c">
+
 - Users can subscribe to receive more information.
 - Contact form for direct communication.
 
