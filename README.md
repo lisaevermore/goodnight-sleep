@@ -16,17 +16,13 @@ npm run deploy
 
 ## Features
 
-<img width="577" alt="Screenshot 2023-12-05 at 14 39 09" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/b5a4161f-1877-401d-ad1b-497cf71d4665">
-<img width="578" alt="Screenshot 2023-12-05 at 14 39 36" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/3e50e3a5-f96a-4259-a2b3-516f9af325d4">
-<img width="576" alt="Screenshot 2023-12-05 at 14 39 51" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/3ad494ca-1d8a-4a3f-8a3b-90376a927b1e">
-<img width="578" alt="Screenshot 2023-12-05 at 14 40 06" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/4f550cf0-9013-4da1-87ae-f49970c743f3">
-<img width="577" alt="Screenshot 2023-12-05 at 14 40 40" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/aebd43d7-df5b-4201-8c04-c58a781ca04c">
+
 <img width="576" alt="Screenshot 2023-12-05 at 14 40 29" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/c8cec66e-543a-4b79-a64f-17fd5ad7e95c">
-<img width="1440" alt="Screenshot 2023-12-05 at 14 37 43" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/15259758-fd49-471b-9fa4-8f2a5d211907">
+
 
 ### 1. Home Page
 
-![Home Page] (<img width="577" alt="Screenshot 2023-12-05 at 14 39 09" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/b5a4161f-1877-401d-ad1b-497cf71d4665">)
+![Home Page] <img width="577" alt="Screenshot 2023-12-05 at 14 39 09" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/b5a4161f-1877-401d-ad1b-497cf71d4665">
 - A serene image of a mountain.
 - Website title.
 - Navigation button leading to the main page.
@@ -51,13 +47,13 @@ npm run deploy
 
 ### 5. Articles Section
 
-![Articles Section] <img width="577" alt="Screenshot 2023-12-05 at 14 40 40" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/aebd43d7-df5b-4201-8c04-c58a781ca04c">
+![Articles Section] <img width="576" alt="Screenshot 2023-12-05 at 14 40 29" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/c8cec66e-543a-4b79-a64f-17fd5ad7e95c">
 - Information and related content accessible through articles.
 - Clicking on an article opens a new webpage for in-depth information.
 
 ### 6. Contact Me/Newsletter
 
-![Contact Me/Newsletter] <img width="576" alt="Screenshot 2023-12-05 at 14 40 29" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/c8cec66e-543a-4b79-a64f-17fd5ad7e95c">
+![Contact Me/Newsletter] <img width="577" alt="Screenshot 2023-12-05 at 14 40 40" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/aebd43d7-df5b-4201-8c04-c58a781ca04c">
 - Users can subscribe to receive more information.
 - Contact form for direct communication.
 
@@ -65,7 +61,7 @@ npm run deploy
 
 - Social media links that open in a new tab.
 - Copyright icon.
-<img width="1440" alt="Screenshot 2023-12-05 at 14 37 43" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/15259758-fd49-471b-9fa4-8f2a5d211907">
+
 
 ## Wireframe Design
 
