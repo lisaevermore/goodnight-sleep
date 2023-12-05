@@ -16,7 +16,14 @@ body, html{
 a { 
   text-decoration: none;
   color: black;
+  font-size: xx-large;
+
  }
+ p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  /* padding: 3rem; */
+}
 
 .section-container{
   padding-top: 10px;
@@ -65,14 +72,15 @@ a {
   justify-content: center;
   position: relative;
 }
-.hero h1{
+
+
+/* .hero h1{
   font-size: 4em;
-}
+} */
 .hero-text {
   color: #87971b; 
   text-align: center; 
 }
-
 
 .hero .btn{
   display: block;
@@ -185,7 +193,7 @@ a {
 
 .title{
   text-align: center;
-
+  font-size: xxx-large;
 }
 
 /*--------------------------------------------footer */
@@ -366,6 +374,7 @@ a {
 /*--------------------------------------------Related Content section */
 
 .text_header{
+  font-family: 'georgia';
   float: left;
   width: 100%;
   text-align: center;
@@ -417,14 +426,10 @@ a {
   margin-top: 12px;
 }
 .ptext{
-  padding: 1vw;
+  padding: 20px;
   margin-bottom: 30px;
-  height: 105px;
-  text-overflow: ellipsis;
   line-height: 20px;
-  max-height: 105px;
   font-family: FedraSansStd-book;
-  font-size: 14px;
   text-align: justify;
   color: #676055;
 }
@@ -437,7 +442,6 @@ a {
 
 
   
-
 @media screen and (min-width: 480px){
   .page-container1 {
       margin-top: 0px;
@@ -453,6 +457,9 @@ a {
 
 
 @media screen and (min-width: 960px){
+  .hero h1 {
+    font-size: 4em;
+}
   .page-container1 {
     background: linear-gradient(to bottom, #ffffff 1%, #667268 97%);
     background-size: 500px,cover;
@@ -481,12 +488,15 @@ a {
     background-position: center;
     margin-top: 0px;
     display: flex;
-}
-.page-container3 {
-  background-size: cover;
-  background-position: center;
-  margin-top: 0px;
   }
+  .page-container3 {
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+  }
+  .hero h1 {
+    font-size: 4em;
+}
  
   .h3-rain{
     display: flex;
@@ -525,16 +535,14 @@ a {
     flex-wrap: wrap;
   }
   /*--------------------------------------------rain sound section */
-
   .rain-container{ 
     width:100%;
     height:0;
     position:relative;
   }
-
   .icons {
     font-size: 35px;
-}
+  }
   
 
 }
