@@ -1,9 +1,4 @@
 # Goodnight Sleep
-
-![Home Page]
-![Navigation Page]
-![Video Section]
-
 ## Overview
 
 Welcome to Goodnight Sleep, a platform dedicated to helping users achieve better sleep through body and mind self-improvement techniques. The site aims to provide a calming and informative environment for users seeking relaxation and improved well-being.
@@ -28,6 +23,7 @@ npm run deploy
 
 ### 2. Navigation Page
 <img width="578" alt="Screenshot 2023-12-05 at 14 39 36" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/3e50e3a5-f96a-4259-a2b3-516f9af325d4">
+<img width="74" alt="Screenshot 2023-12-05 at 14 54 54" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/c45c4175-b94d-46cb-aece-d34bd0d94c62">
 
 - Side navigation bar for easy accessibility.
 - Sections include videos, yoga poses, articles, and a contact/newsletter section.
@@ -52,6 +48,8 @@ npm run deploy
 
 ### 6. Contact Me/Newsletter
 <img width="577" alt="Screenshot 2023-12-05 at 14 40 40" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/aebd43d7-df5b-4201-8c04-c58a781ca04c">
+<img width="821" alt="Screenshot 2023-12-05 at 14 55 09" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/e60941f3-9d63-4011-8ee0-9ed8e07475b7">
+
 
 - Users can subscribe to receive more information.
 - Contact form for direct communication.
@@ -67,14 +65,14 @@ npm run deploy
 ![Wireframe Design]
 - Navigation Page layout with side navigation bar.
 - Sections for video, yoga poses, articles, and contact/newsletter.
-
+  
+![Home](https://github.com/lisaevermore/goodnight-sleep/assets/70776430/f90289d5-1004-45ef-af51-88099c43e18c)
+![Packages](https://github.com/lisaevermore/goodnight-sleep/assets/70776430/8da07208-3bec-4914-badb-d0f2beb3f35d)
 ![3](https://github.com/lisaevermore/goodnight-sleep/assets/70776430/5a0024dd-3282-4cdd-8792-90eb57a4f46e)
 ![4](https://github.com/lisaevermore/goodnight-sleep/assets/70776430/3f4e2658-d910-43a3-bdce-0ea82a7e0e24)
 ![5](https://github.com/lisaevermore/goodnight-sleep/assets/70776430/9d1605fe-9970-4fc8-9dd5-e28d2dd3eb02)
 ![7](https://github.com/lisaevermore/goodnight-sleep/assets/70776430/a7bfd66a-1cd2-4b98-987d-248c7fb0642c)
 ![Contact](https://github.com/lisaevermore/goodnight-sleep/assets/70776430/b0d53b06-400e-4029-af56-b6928c6fb972)
-![Home](https://github.com/lisaevermore/goodnight-sleep/assets/70776430/f90289d5-1004-45ef-af51-88099c43e18c)
-![Packages](https://github.com/lisaevermore/goodnight-sleep/assets/70776430/8da07208-3bec-4914-badb-d0f2beb3f35d)
 
 <img width="865" alt="Screenshot 2023-12-05 at 14 34 26" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/80278ef5-db81-4c1c-b7d3-b62135ffad11">
 
