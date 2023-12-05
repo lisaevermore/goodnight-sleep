@@ -53,7 +53,7 @@ npm run deploy
 
 ### 6. Contact Me/Newsletter
 
-![Contact Me/Newsletter] <img width="577" alt="Screenshot 2023-12-05 at 14 40 40" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/aebd43d7-df5b-4201-8c04-c58a781ca04c">
+![Contact Me/Newsletter](<img width="577" alt="Screenshot 2023-12-05 at 14 40 40" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/aebd43d7-df5b-4201-8c04-c58a781ca04c">)
 - Users can subscribe to receive more information.
 - Contact form for direct communication.
 
@@ -81,11 +81,9 @@ npm run deploy
 
 
 ## Media
-
 - Stock images from Adobe.
 - Video sourced from YouTube.
 
 ## Acknowledgments
-  <img width="1440" alt="Screenshot 2023-12-05 at 00 52 13" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/baef5504-72e6-49a0-bc2c-272197ee3606">
+<img width="1440" alt="Screenshot 2023-12-05 at 00 52 13" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/baef5504-72e6-49a0-bc2c-272197ee3606">
 - UI design adapted from [UI.dev](https://ui.dev/amiresponsive?url=https://lisaevermore.github.io/goodnight-sleep/).
-
