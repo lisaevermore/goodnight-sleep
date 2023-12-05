@@ -4,6 +4,16 @@
 
 Welcome to Goodnight Sleep, a platform dedicated to helping users achieve better sleep through body and mind self-improvement techniques. The site aims to provide a calming and informative environment for users seeking relaxation and improved well-being.
 
+## Deployment
+
+The project is deployed and accessible at [Goodnight Sleep](https://lisaevermore.github.io/goodnight-sleep/).
+
+To deploy this project locally, use the following command:
+
+```bash
+npm run deploy
+```
+
 ## Features
 
 ### 1. Home Page
@@ -62,18 +72,8 @@ Welcome to Goodnight Sleep, a platform dedicated to helping users achieve better
 ![Home](https://github.com/lisaevermore/goodnight-sleep/assets/70776430/f90289d5-1004-45ef-af51-88099c43e18c)
 ![Packages](https://github.com/lisaevermore/goodnight-sleep/assets/70776430/8da07208-3bec-4914-badb-d0f2beb3f35d)
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FiwVGxnLC6qVIUNABy47Jvt%2FUntitled%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3DDqHaiBA2y7iH3TEa-1" allowfullscreen></iframe>
+<img width="865" alt="Screenshot 2023-12-05 at 14 34 26" src="https://github.com/lisaevermore/goodnight-sleep/assets/70776430/80278ef5-db81-4c1c-b7d3-b62135ffad11">
 
-
-## Deployment
-
-The project is deployed and accessible at [Goodnight Sleep](https://lisaevermore.github.io/goodnight-sleep/).
-
-To deploy this project locally, use the following command:
-
-```bash
-npm run deploy
-```
 
 ## Media
 
